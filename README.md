@@ -40,7 +40,9 @@ For running the server type on terminal:
 - Namespacing URL names
 
 ## Writing your first Django app, part 4:
-About part 4
+- Write a minimal form
+- Amend URLconf
+- Amend views (generic views)
 
 ## Writing your first Django app, part 5:
 About part 5
