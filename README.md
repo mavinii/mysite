@@ -45,7 +45,8 @@ For running the server type on terminal:
 - Amend views (generic views)
 
 ## Writing your first Django app, part 5:
-About part 5
+- Introducing automated testing
+- Create a test to expose the bug
 
 ## Writing your first Django app, part 6:
 About part 6
