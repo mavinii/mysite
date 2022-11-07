@@ -49,4 +49,5 @@ For running the server type on terminal:
 - Create a test to expose the bug
 
 ## Writing your first Django app, part 6:
-About part 6
+- Customize your app’s look and feel
+- Adding a background-image
