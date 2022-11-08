@@ -1,5 +1,5 @@
 ## About this Project:
-This project is/was created based in [Django Documentation](https://docs.djangoproject.com/en/4.1/intro/tutorial01/).
+This project is/was created based in [Django Documentation](https://docs.djangoproject.com/en/4.1/).
 
 - Back-End Web Development - BSC30922 & BTM0922 - Semester 1 & 2.
 - Student n: `22931`
@@ -7,6 +7,7 @@ This project is/was created based in [Django Documentation](https://docs.djangop
 - Tutor: [Geoff-Wright](https://github.com/Geoff-Wright). 
 
 ## Writing your first Django app, part 1:
+[Django Documentation, part 1](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 - Creating a project
 - The development server
 - Creating the Polls app
@@ -21,6 +22,7 @@ For running the server type on terminal:
 > http://127.0.0.1:8000/polls/
 
 ## Writing your first Django app, part 2:
+[Django Documentation, part 2](https://docs.djangoproject.com/en/4.1/intro/tutorial02/)
 - Database setup
 - Creating models.
 - Activating models.
@@ -33,6 +35,7 @@ For running the server type on terminal:
 - Password: `123456`
 
 ## Writing your first Django app, part 3:
+[Django Documentation, part 3](https://docs.djangoproject.com/en/4.1/intro/tutorial03/)
 - Writing more views
 - Raising a 404 error
 - Use the template system
@@ -40,19 +43,23 @@ For running the server type on terminal:
 - Namespacing URL names
 
 ## Writing your first Django app, part 4:
+[Django Documentation, part 4](https://docs.djangoproject.com/en/4.1/intro/tutorial04/)
 - Write a minimal form
 - Amend URLconf
 - Amend views (generic views)
 
 ## Writing your first Django app, part 5:
+[Django Documentation, part 5](https://docs.djangoproject.com/en/4.1/intro/tutorial05/)
 - Introducing automated testing
 - Create a test to expose the bug
 
 ## Writing your first Django app, part 6:
+[Django Documentation, part 6](https://docs.djangoproject.com/en/4.1/intro/tutorial06/)
 - Customize your app’s look and feel
 - Adding a background-image
 
 ## Login and Logout:
+[Login and Logout Documentation](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
 - The Django auth app
 - Login Page
 - User Details:
