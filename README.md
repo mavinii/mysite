@@ -72,3 +72,6 @@ For running the server type on terminal:
 
 ## Password Reset:
 ?
+
+## Customizations:
+- Using [Bootstrap](https://getbootstrap.com/).
