@@ -51,3 +51,17 @@ For running the server type on terminal:
 ## Writing your first Django app, part 6:
 - Customize your app’s look and feel
 - Adding a background-image
+
+## Login and Logout:
+- The Django auth app
+- Login Page
+- User Details:
+    - Username: `user`
+    - Email: `user@user.com`
+    - Password: `123456`
+- Create a homepage
+- Logout link
+- Conclusion
+
+## Password Reset:
+?
