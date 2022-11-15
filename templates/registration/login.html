@@ -5,37 +5,32 @@
 
 {% block content %}
 
+<!-- Bootstrap applied that will make the form looks the visual better -->
 <section class="py-5 text-center container">
+
   <div class="row py-lg-5">
     <div class="col-lg-6 col-md-8 mx-auto">
       
       <form method="post" class="p-4 p-md-5 border rounded-3 bg-light">
         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-          {% csrf_token %}   
+        <!-- Django default token and form -->
+        {% csrf_token %}   
+        {{ form.as_p }}
 
-          <div class="form-floating">
-            <input type="email" name="username" class="form-control" required="" id="id_username" placeholder="name@example.com">
-            <label for="id_username">Email address</label>
-          </div>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
 
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required="" id="id_password">
-            <label for="id_password">Password</label>
-          </div>
-
-          <!-- {{ form.as_p }} -->
-
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Log In</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Log In</button>
+        <hr class="my-4">
+        <small class="text-muted">By clicking Log in, you agree to the terms of use.</small>
       </form>
+
     </div>
   </div>
+
 </section>
-
-
 {% endblock %}
