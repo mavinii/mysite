@@ -3,19 +3,20 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 
-<!-- This function checks if the user is logged in -->
-{% if user.is_authenticated %}
+  <!-- This function checks if the user is logged in
+  if so, it displays the user pics and a welcome message -->
+  {% if user.is_authenticated %}
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1>Welcome {{ user.username }}!</h1>
+        <h1>Welcome, {{ user.username }}!</h1>
         <p>Polls App</p>
       </div>
     </div>
   </section>
 
   <!-- If the user is not logged in, display -->
-{% else %}
+  {% else %}
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
@@ -24,6 +25,6 @@
       </div>
     </div>
   </section>
-{% endif %}
+  {% endif %}
 
-{% endblock %}
+  {% endblock %}

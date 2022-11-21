@@ -1,5 +1,5 @@
 ## About this Project:
-This project is/was created based in [Django Documentation](https://docs.djangoproject.com/en/4.1/).
+This project was created based in [Django Documentation](https://docs.djangoproject.com/en/4.1/).
 
 - Back-End Web Development - BSC30922 & BTM0922 - Semester 1 & 2.
 - Student n: `22931`
@@ -71,7 +71,8 @@ For running the server type on terminal:
 - Conclusion
 
 ## Password Reset:
-?
+- Django lets us store emails either in the console or as a file.
+- http://127.0.0.1:8000/accounts/password_reset/
 
 ## Customizations:
 - Using [Bootstrap](https://getbootstrap.com/).
