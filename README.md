@@ -78,10 +78,10 @@ For running the server type on terminal:
 - Using [Bootstrap](https://getbootstrap.com/).
 
 ## Pages:
-[main page](/polls/static/pages/1.png)
-[admin page](/polls/static/pages/2.png)
-[sign-in page](/polls/static/pages/3.png)
-[welcome page](/polls/static/pages/4.png)
-[all question page](/polls/static/pages/5.png)
-[question page](/polls/static/pages/6.png)
-[total votes page](/polls/static/pages/7.png)
+![main page](/polls/static/pages/1.png)
+![admin page](/polls/static/pages/2.png)
+![sign-in page](/polls/static/pages/3.png)
+![welcome page](/polls/static/pages/4.png)
+![all question page](/polls/static/pages/5.png)
+![question page](/polls/static/pages/6.png)
+![total votes page](/polls/static/pages/7.png)
