@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Results{% endblock %}
+{% block content %}
+
+    <div class="px-4 py-5 my-5 text-center">
+        <h1>{{ question.question_text }} | Total of votes {{ question.total_votes }}</h1>
+
+        <div class="col-lg-6 mx-auto">
+            {% for choice in question.choice_set.all %}
+            <p class="lead mb-4">{{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }}</p>
+            {% endfor %}
+            <a href="{% url 'polls:detail' question.id %}" class="btn btn-primary me-2">Vote again</a>
+        </div>
+
+    </div>
+
+{% endblock %}

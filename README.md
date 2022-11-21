@@ -13,7 +13,6 @@ This project was created based in [Django Documentation](https://docs.djangoproj
 - Creating the Polls app
 - Write your first view
 
-
 For running the server type on terminal:
 > py manage.py runserver
 
@@ -70,9 +69,19 @@ For running the server type on terminal:
 - Logout link
 - Conclusion
 
-## Password Reset:
+## Reset Password:
+[Django Password Reset Tutorial](https://learndjango.com/tutorials/django-password-reset-tutorial)
 - Django lets us store emails either in the console or as a file.
 - http://127.0.0.1:8000/accounts/password_reset/
 
 ## Customizations:
 - Using [Bootstrap](https://getbootstrap.com/).
+
+## Pages:
+[main page](/polls/static/pages/1.png)
+[admin page](/polls/static/pages/2.png)
+[sign-in page](/polls/static/pages/3.png)
+[welcome page](/polls/static/pages/4.png)
+[all question page](/polls/static/pages/5.png)
+[question page](/polls/static/pages/6.png)
+[total votes page](/polls/static/pages/7.png)

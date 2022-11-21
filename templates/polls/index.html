@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <!-- This page displays all questions available -->
+    <div class="px-4 py-5 my-5 text-center">
+        <h1>All Questions</h1>
+        <div class="col-lg-6 mx-auto">
+
+            {% if latest_question_list %}
+            {% for question in latest_question_list %}
+                <a href="{% url 'polls:detail' question.id %}" class="btn btn-light lead mb-4">{{ question.question_text }}</a><br>
+            {% endfor %}
+            {% else %}
+                <p class="lead mb-4">No polls are available.</p>
+            {% endif %}
+
+        </div>
+    </div>
+{% endblock %}

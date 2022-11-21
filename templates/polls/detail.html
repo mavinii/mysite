@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+    <!-- This page shows the details of the votes -->
+    <div class="px-4 py-5 my-5 text-center">
+        <h1>{{ question.question_text }}</h1>
+        <div class="col-lg-6 mx-auto">
+
+        <form action="{% url 'polls:vote' question.id %}" method="post">
+            {% csrf_token %}
+            <fieldset>
+                {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+                {% for choice in question.choice_set.all %}
+                <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" class="lead mb-4">
+                <label for="choice{{ forloop.counter }}" class="lead mb-4">{{ choice.choice_text }}</label><br>
+                {% endfor %}
+            </fieldset>
+                <a href="/polls" class="btn btn-secondary me-2">Back to Polls</a>
+                <input type="submit" value="Vote" class="btn btn-primary me-2">
+        </form>
+
+        </div>
+    </div>
+
+{% endblock %}
