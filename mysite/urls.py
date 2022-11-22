@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 from django.views.generic.base import TemplateView # new
 
+# Point the root URLconf at the polls urls
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),

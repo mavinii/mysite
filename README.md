@@ -57,6 +57,7 @@ For running the server type on terminal:
 - Customize your app’s look and feel
 - Adding a background-image
 
+
 ## Login and Logout:
 [Login and Logout Documentation](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
 - The Django auth app
