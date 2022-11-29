@@ -1,4 +1,4 @@
-## About this Project:
+# CA1 - November 2022
 This project was created based in [Django Documentation](https://docs.djangoproject.com/en/4.1/).
 
 - Back-End Web Development - BSC30922 & BTM0922 - Semester 1 & 2.
@@ -57,6 +57,8 @@ For running the server type on terminal:
 - Customize your app’s look and feel
 - Adding a background-image
 
+# CA2 - December 2022
+All security issues necessary for this project are fixed.
 
 ## Login and Logout:
 [Login and Logout Documentation](https://learndjango.com/tutorials/django-login-and-logout-tutorial)
