@@ -3,6 +3,7 @@ from django.urls import path
 from . import views
 
 # These maps the url the polls app to the views
+# These URLs are also been tested on test.py
 app_name = 'polls'
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),

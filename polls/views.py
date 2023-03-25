@@ -6,6 +6,7 @@ from django.utils import timezone
 
 from .models import Choice, Question
 
+
 # All the views can be created here.
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
@@ -17,7 +18,8 @@ class IndexView(generic.ListView):
         published in the future).
         """
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
-        
+
+
 # This is the details html page
 class DetailView(generic.DetailView):
     model = Question
@@ -29,10 +31,12 @@ class DetailView(generic.DetailView):
         """
         return Question.objects.filter(pub_date__lte=timezone.now())
 
+
 # This is the results html page
 class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/results.html'
+
 
 # This is the vote function
 def vote(request, question_id):
