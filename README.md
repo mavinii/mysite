@@ -76,7 +76,7 @@ All security issues necessary for this project are fixed.
 - Using [Bootstrap](https://getbootstrap.com/).
 
 # Continuous Assessment 3 - Django Test and Security
-For my CA3 project, I created a test folder to store all my tests. Within that folder, the files I have created are: `test_models.py`, `test_urls.py`, `test_settings.py`, `test_login.py` and `test_signup`.
+For this CA3 project, I created a test folder to store all my tests. All these tests were tested with a combination of manual and automatic testing. Within that folder, the files I have created are: `test_models.py`, `test_urls.py`, `test_settings.py`, `test_login.py` and `test_signup`. Here is what they are and what they are doing:
 
 - test_models.py:
 
@@ -99,10 +99,10 @@ For my CA3 project, I created a test folder to store all my tests. Within that f
 
 - 'django.middleware.security.SecurityMiddleware':
 
-		- The middleware provides security features for your application, such as setting HTTP headers to protect 	against common attacks like cross-site scripting (XSS), cross-site request forgery (CSRF), and clickjacking.
+		- The middleware provides security features for your application, such as setting HTTP headers to protect against common attacks like cross-site scripting (XSS), cross-site request forgery (CSRF), and clickjacking.
 
 
-These tests provide a safety net for my CA3 project, helping me catch bugs and regressions as I make changes to the codebase.
+These tests provide a safety net for my CA3 project, helping me catch bugs and regressions as I make changes to the codebase. Please note, for running these tests you have to run the follwoing command: `python manage.py test_name`.
 
 
 
